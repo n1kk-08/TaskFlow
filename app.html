@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow</title>
+    <link rel="stylesheet" href="Styles/style2.css" />
+  </head>
+  <body>
+
+
+<header>
+      <h1 id="user-name"></h1>
+      <img id="user-avatar" alt="User Avatar" />
+      <button id="sign-out">Sign Out</button>
+    </header>
+
+    
+
+    <main>
+      <section id="task-input">
+        <input type="text" id="new-task" placeholder="Add a new task" />
+        <button id="add-task">Add Task</button>
+      </section>
+
+      <section id="view-selector">
+        <button data-view="todo">Todo</button>
+        <button data-view="completed">Completed</button>
+        <button data-view="archived">Archived</button>
+      </section>
+
+      <section id="todo-section">
+        <h2>Todo</h2>
+        <ul id="todo-list"></ul>
+      </section>
+
+      <section id="completed-section">
+        <h2>Completed</h2>
+        <ul id="completed-list"></ul>
+      </section>
+
+      <section id="archived-section">
+        <h2>Archived</h2>
+        <ul id="archived-list"></ul>
+      </section>
+    </main>
+
+
+
+    <script src="/Scripts/app.js"></script>
+  </body>
+</html>
+
+
